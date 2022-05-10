@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!-- Developers: Arabella McEntire and Aveline McEntire
+    CIS 130
+    4/2/22
+    Guess the Number game -->
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "one.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <title>Guessing Game</title>
+
+  </head>
+  <body>
+
+<!-- Introduction to the game and how to play -->
+<div class="intro">
+  <a href="home.html"><h1> Gaming Co. Games </h1></a>
+  <p> Guess the number! A random number has been generated from between 1 and 10. Try to guess it! </p>
+</div>
+
+<!-- form for guess input -->
+
+<div class="inputForm">
+
+  <label for="guessForm"><p>Enter your guess here: </p></label>
+
+  <input type="text" id="guessForm" class = "guessForm">
+
+<br><br>
+  <div class="guessSubmit">
+    <input type="submit" value="Submit Your Guess" class = "userguess" id="guessSubmit">
+  </div>
+</div>
+
+<br><br>
+<div class="secret" id = "secret"></div>
+
+
+<!-- Link to external java script-->
+
+
+    <script type="text/javascript" src="java.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+<!--
+
+Prompt:
+
+Create a random number
+Prompt for a number
+Write out "yes" if the user guessed the number correctly
+Write out "no" if the the user guessed incorrectly
+
+-->

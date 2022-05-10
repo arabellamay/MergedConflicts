@@ -1,0 +1,149 @@
+body {
+  width: 50%;
+  margin: auto;
+  background-color: #fffaf0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  border: 1px solid black;
+  background-color: palevioletred;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 33px;
+}
+
+li a:hover {
+  background-color: violet;
+}
+
+#cardpick{
+  transition-duration: 0.3s;
+  border: 2px solid hotpink;
+  border-radius: 5px;
+  background-color: white;
+  color: hotpink;
+  padding: 15px;
+  font-family: 'Arvo', serif;
+  font-size: 30px;
+}
+
+.cardpick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.secret {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#secret {
+  color: pink;
+  letter-spacing: 2px;
+  padding: 20px;
+  line-height: 20px;
+  background-color: rgb(177, 62, 103);
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Coronet script', 'Brush Script MT';
+  color: palevioletred;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  letter-spacing: 0.3em;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cards {
+  width: 50%;
+  margin: auto;
+  color: pink;
+  letter-spacing: 2px;
+  padding: 10px;
+  line-height: 20px;
+  background-color: rgb(177, 62, 103);
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.intro p {
+  font-family: 'Arvo', serif;
+  letter-spacing: .2em;
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.inputForm  {
+  font-family: 'Arvo', serif;
+  letter-spacing: .2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.guessForm {
+  border: 2px solid black;
+}
+
+#guessForm {
+  width: 50%;
+  margin: auto;
+}
+
+#guessSubmit {
+  transition-duration: 0.3s;
+  border: 2px solid hotpink;
+  border-radius: 5px;
+  background-color: white;
+  color: hotpink;
+  padding: 15px;
+  font-family: 'Arvo', serif;
+  font-size: 50px;
+}
+
+.guessSubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#guessSubmit:hover {
+  background-color: hotpink;
+  color: white;
+}
